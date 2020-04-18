@@ -1,0 +1,416 @@
+p {
+  margin-bottom: 0px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.main-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, right top, from(#56b7b0), to(#d88154));
+  background-image: linear-gradient(90deg, #56b7b0, #d88154);
+}
+
+.main-wrap {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  right: 0px;
+  z-index: 1;
+  width: 90%;
+  -webkit-transform: translate(0px, -50%);
+  -ms-transform: translate(0px, -50%);
+  transform: translate(0px, -50%);
+  text-align: center;
+}
+
+.sign-in-button {
+  position: relative;
+  margin: 10px;
+  padding: 15px 40px;
+  border-style: none;
+  border-width: 0px;
+  border-radius: 50px;
+  background-color: rgba(56, 152, 236, 0);
+  background-image: -webkit-gradient(linear, right top, left top, from(#e67e22), to(#d35400));
+  background-image: linear-gradient(270deg, #e67e22, #d35400);
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.21);
+  -webkit-transition: box-shadow 200ms linear;
+  transition: box-shadow 200ms linear;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 11px;
+  line-height: 18px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.sign-in-button:hover {
+  background-image: -webkit-gradient(linear, right top, left top, from(#e67e22), to(#d35400));
+  background-image: linear-gradient(270deg, #e67e22, #d35400);
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+}
+
+.sign-in-button:active {
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.sign-up-button {
+  position: relative;
+  margin: 10px;
+  padding: 15px 40px;
+  border-radius: 50px;
+  background-color: rgba(56, 152, 236, 0);
+  background-image: -webkit-gradient(linear, right top, left top, from(#e67e22), to(#d35400));
+  background-image: linear-gradient(270deg, #e67e22, #d35400);
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.21);
+  -webkit-transition: box-shadow 200ms linear;
+  transition: box-shadow 200ms linear;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 11px;
+  line-height: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.sign-up-button:hover {
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+}
+
+.sign-up-button:active {
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.sign-in-wrapper {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  right: 0px;
+  z-index: 3;
+  width: 100%;
+  margin-top: -200px;
+  margin-bottom: 0px;
+  -webkit-transform: translate(-100%, 0px);
+  -ms-transform: translate(-100%, 0px);
+  transform: translate(-100%, 0px);
+}
+
+.form {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 50px;
+  border-radius: 5px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#f1c40f), to(#f39c12));
+  background-image: linear-gradient(270deg, #f1c40f, #f39c12);
+  box-shadow: 0 0 21px -4px rgba(0, 0, 0, 0.26);
+  opacity: 1;
+  color: #fff;
+  text-align: center;
+}
+
+.form.thanks {
+  top: 120px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.form.error {
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.text-fild {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  padding: 22px 20px 20px;
+  border-style: none;
+  border-radius: 5px;
+  background-color: rgba(243, 156, 18, 0.3);
+  box-shadow: inset 0 0 2px 2px rgba(0, 0, 0, 0.03);
+  -webkit-transition: background-color 250ms linear;
+  transition: background-color 250ms linear;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 11px;
+  line-height: 18px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: none;
+}
+
+.text-fild:active {
+  background-color: rgba(243, 156, 18, 0.2);
+}
+
+.text-fild:focus {
+  background-color: rgba(243, 156, 18, 0.2);
+}
+
+.form-name {
+  position: relative;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  padding-bottom: 0px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.hedings-bottom-line {
+  padding-bottom: 10px;
+  border-bottom: 1px dashed hsla(0, 0%, 100%, 0.41);
+}
+
+.form-button {
+  position: relative;
+  display: inline;
+  overflow: hidden;
+  margin-top: 0px;
+  padding: 15px 40px;
+  border-style: none;
+  border-radius: 50px;
+  background-color: transparent;
+  background-image: -webkit-gradient(linear, right top, left top, from(#f1c40f), to(#f39c12));
+  background-image: linear-gradient(270deg, #f1c40f, #f39c12);
+  box-shadow: 0 0 4px 1px rgba(83, 83, 83, 0.21);
+  -webkit-transition: box-shadow 200ms linear;
+  transition: box-shadow 200ms linear;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  line-height: 18px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.form-button:hover {
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form-button:active {
+  border-style: none;
+  box-shadow: none;
+}
+
+.form-button:focus {
+  border-style: none;
+  box-shadow: none;
+}
+
+.form-button.logged-in {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.form-button.logged-in.w--current {
+  background-image: -webkit-gradient(linear, right top, left top, from(#f1c40f), to(#f39c12));
+  background-image: linear-gradient(270deg, #f1c40f, #f39c12);
+}
+
+.form-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 25px;
+  height: 25px;
+  background-image: url('../images/delete_1delete.png');
+  background-position: 50% 50%;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  -webkit-transition: -webkit-transform 150ms ease;
+  transition: -webkit-transform 150ms ease;
+  transition: transform 150ms ease;
+  transition: transform 150ms ease, -webkit-transform 150ms ease;
+  cursor: pointer;
+}
+
+.form-close:hover {
+  background-size: 20px;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.forgot-link {
+  display: inline-block;
+  margin-top: 15px;
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
+  font-family: 'Open Sans', sans-serif;
+  color: hsla(0, 0%, 100%, 0.7);
+  font-size: 8px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.forgot-link:hover {
+  color: #fff;
+}
+
+.clear {
+  position: relative;
+  width: 100%;
+  height: 1px;
+}
+
+.form-wrap {
+  position: relative;
+  left: 5%;
+  width: 90%;
+}
+
+.lost-pass-wrapper {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 10;
+  display: none;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(211, 84, 0, 0.73);
+  opacity: 0;
+}
+
+.lost-pass-wrap {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  width: 90%;
+  -webkit-transform: translate(0px, -50%);
+  -ms-transform: translate(0px, -50%);
+  transform: translate(0px, -50%);
+}
+
+.forgot-pass-text {
+  margin-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.lost-pass-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 3;
+  width: 25px;
+  height: 25px;
+  background-image: url('../images/delete_1delete.png');
+  background-position: 50% 50%;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  -webkit-transition: -webkit-transform 200ms ease;
+  transition: -webkit-transform 200ms ease;
+  transition: transform 200ms ease;
+  transition: transform 200ms ease, -webkit-transform 200ms ease;
+  cursor: pointer;
+}
+
+.lost-pass-close:hover {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.body {
+  overflow: hidden;
+}
+
+.success {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 130px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 5px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#f1c40f), to(#f39c12));
+  background-image: linear-gradient(90deg, #f1c40f, #f39c12);
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.success.check-mail {
+  margin-top: 40px;
+}
+
+.error {
+  width: 100%;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 5px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#f1c40f), to(#f39c12));
+  background-image: linear-gradient(90deg, #f1c40f, #f39c12);
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.22);
+}
+
+.sign-up-wrapper {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  right: 0px;
+  z-index: 3;
+  width: 100%;
+  margin-top: -222px;
+  -webkit-transform: translate(100%, 0px);
+  -ms-transform: translate(100%, 0px);
+  transform: translate(100%, 0px);
+}
+
+.form-2-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 3;
+  width: 25px;
+  height: 25px;
+  background-image: url('../images/delete_1delete.png');
+  background-position: 50% 50%;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  -webkit-transition: -webkit-transform 200ms ease;
+  transition: -webkit-transform 200ms ease;
+  transition: transform 200ms ease;
+  transition: transform 200ms ease, -webkit-transform 200ms ease;
+  cursor: pointer;
+}
+
+.form-2-close:hover {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+@media screen and (max-width: 767px) {
+  .form {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
